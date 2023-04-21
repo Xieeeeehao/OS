@@ -186,6 +186,8 @@ UPROGS=\
 	_zombie\
 	_forktest007\
 	_sleep\
+	_myfork\
+	_mypipe\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
